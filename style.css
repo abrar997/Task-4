@@ -135,8 +135,10 @@ footer .footer-container form {
 .top-btn i:hover {
   color: var(--color-white);
 }
-.top-btn:hover {
+.top-btn:hover,
+.top-btn:focus {
   opacity: 1;
+  color: var(--white-color);
 }
 .top-btn.show {
   right: 40px;
