@@ -17,7 +17,6 @@
   --footer-padding: 20px 0px;
 }
 
-/* main color has change and used primary with bootstrap instead */
 body {
   font-family: Arial, sans-serif;
   background-color: var(--background-body);
