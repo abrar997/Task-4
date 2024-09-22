@@ -40,6 +40,10 @@ open `index.html` file in browser to view the blog .the project is responsive to
 
 - add image to articles with lazy loading
 
+## additional updates
+
+- change colors for contrast and use different color when hover aside links
+
 ## License
 
 Feel free to use .
