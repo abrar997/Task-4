@@ -36,6 +36,10 @@ open `index.html` file in browser to view the blog .the project is responsive to
 
 - **Footer contact form** : styled using Bootstrap's grid system for a modern lock
 
+## Creativity
+
+- add image to articles with lazy loading
+
 ## License
 
 Feel free to use .
