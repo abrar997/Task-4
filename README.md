@@ -42,7 +42,7 @@ open `index.html` file in browser to view the blog .the project is responsive to
 
 ## additional updates
 
-- change colors for contrast and use different color when hover aside links
+- change colors for contrast and use accent color when hover aside links and use (##d7d5d5 ) for links of header when hover
 
 ## License
 
