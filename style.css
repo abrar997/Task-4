@@ -16,7 +16,6 @@
   --card-margin-bottom: 20px;
   --footer-padding: 20px 0px;
 }
-
 body {
   font-family: Arial, sans-serif;
   background-color: var(--background-body);
@@ -71,6 +70,7 @@ header .navbar-nav .nav-link a:focus {
 .card .card-image {
   grid-column: span 1;
   order: 2;
+  height: 100%;
 }
 .card .card-image img {
   width: 100%;
@@ -167,13 +167,24 @@ footer .footer-container form {
   header {
     padding: 20px 0;
   }
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  .card .card-body {
+    grid-column: span 1;
+    order: 2;
+  }
+  .card .card-body .card-title {
+    margin-bottom: 3px;
+  }
+  .card .card-image {
+    grid-column: span 1;
+    order: 1;
+  }
   .card .card-image img {
     height: 200px;
   }
-  .top-btn.show {
-    right: 10px;
-  }
-
   footer p {
     width: 100%;
   }
@@ -183,22 +194,15 @@ footer .footer-container form {
   footer .footer-container form {
     box-shadow: none;
   }
-  .card {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .card .card-body {
-    grid-column: span 1;
-    order: 2;
-  }
-  .card .card-image {
-    grid-column: span 1;
-    order: 1;
-  }
   .top-btn {
     height: 45px;
     width: 45px;
   }
+  .top-btn.show {
+    right: 15px;
+  }
 }
+
 @media screen and (min-width: 421px) and (max-width: 920px) {
   header {
     padding: 20px 0;
@@ -207,8 +211,19 @@ footer .footer-container form {
   .card .card-image img {
     height: 300px;
   }
-  .top-btn.show {
-    right: 10px;
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card .card-body {
+    grid-column: span 1;
+    order: 2;
+  }
+  .card .card-body .card-title {
+    margin-bottom: 3px;
+  }
+  .card .card-image {
+    grid-column: span 1;
+    order: 1;
   }
 
   footer p {
@@ -220,19 +235,17 @@ footer .footer-container form {
   footer .footer-container form {
     box-shadow: none;
   }
-  .card {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .card .card-body {
-    grid-column: span 1;
-    order: 2;
-  }
-  .card .card-image {
-    grid-column: span 1;
-    order: 1;
-  }
   .top-btn {
     height: 45px;
     width: 45px;
+  }
+  .top-btn.show {
+    right: 15px;
+  }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1024px) {
+  .card .card-image img {
+    height: 180px;
   }
 }

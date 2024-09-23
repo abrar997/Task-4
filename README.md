@@ -43,6 +43,9 @@ open `index.html` file in browser to view the blog .the project is responsive to
 ## additional updates
 
 - change colors for contrast and use accent color when hover aside links and use (##d7d5d5 ) for links of header when hover
+- change background-color of div (a line bellow header) and use accent color
+- fix spacing of blog after add image
+- for card title - articles : change margin bottom for responsive
 
 ## License
 
